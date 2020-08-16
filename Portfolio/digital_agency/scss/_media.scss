@@ -1,0 +1,237 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px){
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px){
+	/**/
+	.hello__row {
+		justify-content: center;
+		padding-top: 0px;
+	}
+	.hello__left {
+		flex: 1 1 100%;
+	}
+	.hello__right {
+		display: none;
+	}
+	.hello__title, .hello__subtitle, .work__title {
+		text-align: center;
+	}
+	.hello__btn {
+		justify-content: center;
+		text-align: center;
+	}
+	.work__grid {
+
+		grid-template-areas: "a c"
+												 "a c"
+												 "a c"
+												 "d i"
+												 "d i"
+												 "d i"
+												 "d i"
+												 "d i"
+												 "b e"
+												 "b e"	
+												 "b e"
+												 "b e"
+												 "b e"
+
+
+												 ;
+	}
+	.about__row {
+		padding: 100px 0 0 0;
+	}
+	.about__text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 992px;
+	}
+	.about__main {
+		flex: 1 1 auto;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.about__box {
+		flex: 1 1 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-right: 0px;
+		margin-bottom: 60px;
+	}
+	.about____box-text {
+		flex: 1 1 100%;
+		max-width: 420px;
+	}
+	.about__subtitle {
+  	text-align: center;
+  }
+  .our__row {
+  	padding: 80px 0 0 0;
+  }
+  .work__title {
+  	padding-bottom: 0px;
+  }
+  .contact__row {
+  	padding: 40px 0 0 0;
+  }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/**/
+	.header__logo {
+		display: none;
+	}
+	.header__row {
+		justify-content: center;
+	}
+	.hello__title, .work__title {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.work__grid {	
+	grid-template-areas: 
+                        "a"
+                        "a"
+                        "a"
+                        "d"
+                        "d"
+                        "d"
+                        "d"
+                        "d"
+                        "b"
+                        "b"
+                        "b"
+                        "b"
+                        "b"
+                        "c"
+                        "c"
+                        "c"
+                        "i"
+                        "i"
+                        "i"
+                        "i"
+                        "i"
+                        "e"
+                        "e"
+                        "e"
+                        "e"
+                        "e";   
+  } 
+
+  .contact__img {
+  	display: none;
+  }   
+  .contact__left {
+  	flex: 1 1 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  }
+  .contact__right {
+  	display: none;
+  }
+  .contact__text {
+  	max-width: 768px;
+  	text-align: center;
+  }
+  .contact__form, .contact__input {
+  	max-width: 768px;
+  }
+  .our__title {
+  	text-align: center;
+  }
+  .our__subtitle {
+  	text-align: center;
+  	margin: 10px auto;
+  }
+  .our__boxes {
+  	flex-direction: column;
+  }
+  .our__box {
+  	margin-right: 0px;
+  }
+  .our__block {
+  	margin: auto;
+  }
+  .our__box_subtitle {
+  	text-align: center;
+  }
+  .contact__left {
+  	align-items: normal;
+  }
+
+  .footer__logo {
+		display: none;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/**/
+	.social__row {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 0px;
+	}
+	.social__box  {
+		margin-bottom: 15px;
+	}
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+	/**/
+}
+
+
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+	/**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+	/**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+	/**/
+}
+
